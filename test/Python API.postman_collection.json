@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "de040f4e-6c95-4e64-ab8e-33d665e3c797",
+		"name": "Python API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30344351"
+	},
+	"item": [
+		{
+			"name": "Embed Owner",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emailId\":\"astropynum@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://pristine-setup-401316.uc.r.appspot.com/embed_owner",
+					"protocol": "https",
+					"host": [
+						"pristine-setup-401316",
+						"uc",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"embed_owner"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Embed Collab",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emailId\":\"calebjerry90@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://pristine-setup-401316.uc.r.appspot.com/embed_collab",
+					"protocol": "https",
+					"host": [
+						"pristine-setup-401316",
+						"uc",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"embed_collab"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cossine Similarity",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emailId\":\"astropynum@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://pristine-setup-401316.uc.r.appspot.com/cossim",
+					"protocol": "https",
+					"host": [
+						"pristine-setup-401316",
+						"uc",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"cossim"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Prompt",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"owner\": \"astropynum@gmail.com\",\r\n    \"collaborator\": \"tolly@stci.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://pristine-setup-401316.uc.r.appspot.com/prompt",
+					"protocol": "https",
+					"host": [
+						"pristine-setup-401316",
+						"uc",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"prompt"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
